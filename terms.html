@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isabella AI™ - Terms of Service | Términos de Servicio</title>
+    <meta name="description" content="Isabella AI Terms of Service - Your rights and responsibilities">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 50%, #FF8C00 100%);
+            color: white;
+            padding: 40px 30px;
+            text-align: center;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .header .subtitle {
+            opacity: 0.95;
+            font-size: 1.1em;
+        }
+
+        .language-switcher {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .lang-btn {
+            padding: 10px 25px;
+            border: 2px solid white;
+            background: transparent;
+            color: white;
+            border-radius: 25px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 500;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+
+        .lang-btn.active {
+            background: white;
+            color: #FF8C00;
+            text-shadow: none;
+        }
+
+        .lang-btn:hover:not(.active) {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .content {
+            padding: 40px 30px;
+        }
+
+        .language-content {
+            display: none;
+        }
+
+        .language-content.active {
+            display: block;
+        }
+
+        h2 {
+            color: #D2691E;
+            margin: 30px 0 15px 0;
+            font-size: 1.5em;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #FFE4B5;
+        }
+
+        h3 {
+            color: #FF8C00;
+            margin: 20px 0 10px 0;
+            font-size: 1.2em;
+        }
+
+        p, li {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        .critical-disclaimer {
+            background: #FFF5EE;
+            border-left: 4px solid #FF6347;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .critical-disclaimer h3 {
+            color: #FF6347;
+            margin-top: 0;
+        }
+
+        .info-box {
+            background: #FFFAF0;
+            border-left: 4px solid #FFD700;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .pricing-table {
+            background: #FFFAF0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .pricing-tier {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 1px solid #FFE4B5;
+            transition: transform 0.3s ease;
+        }
+
+        .pricing-tier:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255,215,0,0.2);
+        }
+
+        .pricing-tier h4 {
+            color: #D2691E;
+            margin-bottom: 10px;
+        }
+
+        .pricing-tier .price {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #FF8C00;
+            margin-bottom: 10px;
+        }
+
+        .footer {
+            background: #FFF8DC;
+            padding: 30px;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #FFE4B5;
+        }
+
+        .footer a {
+            color: #FF8C00;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .version-info {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #FFF8DC;
+            border-radius: 5px;
+        }
+
+        .company-info {
+            background: #FFFAF0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #FFE4B5;
+        }
+
+        .company-info h3 {
+            color: #D2691E;
+            margin-bottom: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .lang-btn {
+                padding: 8px 20px;
+                font-size: 0.9em;
+            }
+        }
+
+        strong {
+            color: #8B4513;
+        }
+
+        .contact-info {
+            background: #FFFAF0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 1px solid #FFE4B5;
+        }
+
+        .important-notice {
+            background: linear-gradient(135deg, #FF6347, #FF4500);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📑 Isabella AI™</h1>
+            <div class="subtitle" id="header-subtitle">Terms of Service | Términos de Servicio</div>
+            <div class="language-switcher">
+                <button class="lang-btn active" onclick="switchLanguage('en')">English</button>
+                <button class="lang-btn" onclick="switchLanguage('es')">Español</button>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- English Content -->
+            <div id="content-en" class="language-content active">
+                <div class="version-info">
+                    <strong>Effective Date:</strong> September 9, 2025<br>
+                    <strong>Last Updated:</strong> September 9, 2025<br>
+                    <strong>Version:</strong> 1.2<br>
+                    A full Spanish translation is available through the language selector above. In case of conflict, the English version prevails.
+                </div>
+
+                <div class="company-info">
+                    <h3>TRADER / COMPANY INFORMATION</h3>
+                    <p><strong>Company:</strong> STEIMARI EOOD (Bulgarian Limited Liability Company)</p>
+                    <p><strong>Company Registration No:</strong> 208317702 / ЕИК 208317702</p>
+                    <p><strong>Registered Address:</strong> Sofia, Bulgaria</p>
+                    <p><strong>Correspondence address pending</strong> — the full registered office will be provided within 48 hours upon request at support@talktoisabella.com</p>
+                </div>
+
+                <div class="important-notice">
+                    IMPORTANT NOTICE: ISABELLA IS ARTIFICIAL INTELLIGENCE SOFTWARE, NOT A REAL PERSON
+                </div>
+
+                <h2>1. ACCEPTANCE OF TERMS</h2>
+                <p>By accessing or using Isabella AI™ ("Service"), operated by STEIMARI EOOD ("Company," "we," "us"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the Service.</p>
+                <p><strong>CONTROLLING LANGUAGE:</strong> These Terms are provided in English and Spanish for convenience. If there is any inconsistency between the English and Spanish versions, the English version controls.</p>
+
+                <h2>2. NATURE OF SERVICE - CRITICAL DISCLOSURE</h2>
+                <div class="critical-disclaimer">
+                    <h3>YOU ACKNOWLEDGE AND UNDERSTAND THAT:</h3>
+                    <ul>
+                        <li>Isabella is artificial intelligence software powered by OpenAI, not a real person</li>
+                        <li>All responses are computer-generated using AI language models</li>
+                        <li>AI can and will make mistakes, errors, and provide incorrect information</li>
+                        <li>Isabella cannot provide genuine emotional support or love</li>
+                        <li>Isabella cannot replace human relationships or professional help</li>
+                        <li>All "memories" are database entries, not genuine recollection</li>
+                        <li>All emotional expressions are simulated, not real feelings</li>
+                        <li>Language understanding and responses may be imperfect or inappropriate</li>
+                        <li>Service is available in English and Spanish only</li>
+                    </ul>
+                    <p><strong>AI LIMITATIONS:</strong> Isabella may provide incorrect, nonsensical, or inappropriate responses. This is inherent to AI technology and is NOT grounds for refunds.</p>
+                </div>
+
+                <h2>2A. NSFW BAN & SAFETY MEASURES (AUTOMATED, NOT GUARANTEED)</h2>
+                <div class="critical-disclaimer">
+                    <p>Adult/NSFW/erotic content is strictly prohibited across all plans. Isabella is PG-rated romance only (no sex talk, nudity, sexting, erotic roleplay, or explicit descriptions). <strong>THIS SERVICE DOES NOT PROVIDE ADULT CONTENT.</strong></p>
+                    
+                    <h3>AUTOMATED SAFETY ATTEMPTS (NOT GUARANTEED):</h3>
+                    <p>The Service employs automated measures that ATTEMPT to:</p>
+                    <ul>
+                        <li>Detect and block NSFW/sexual content requests</li>
+                        <li>Identify potential crisis language and provide helpline numbers</li>
+                        <li>Terminate conversations containing prohibited content</li>
+                    </ul>
+                    
+                    <h3>IMPORTANT LIMITATIONS:</h3>
+                    <ul>
+                        <li>These safety measures are AUTOMATED and IMPERFECT</li>
+                        <li>AI may fail to detect prohibited content</li>
+                        <li>AI may incorrectly flag acceptable content</li>
+                        <li>Detection is NOT guaranteed and does NOT constitute monitoring</li>
+                        <li>We do NOT review conversations for safety in real-time</li>
+                        <li>Automated responses are NOT professional crisis intervention</li>
+                    </ul>
+                    
+                    <h3>IF SAFETY MEASURES TRIGGER:</h3>
+                    <ul>
+                        <li>For NSFW attempts: Service may stop responding; session may terminate</li>
+                        <li>For crisis language: Isabella may provide helpline numbers automatically</li>
+                        <li>Multiple violations: Account termination without refund</li>
+                        <li>False positives: Contact support@talktoisabella.com, but no guaranteed restoration</li>
+                    </ul>
+                    
+                    <p><strong>NO REFUNDS FOR SAFETY TERMINATIONS:</strong> If your account or session is terminated due to safety measure triggers (whether accurate or false positive), NO refunds will be provided. You accept this risk by using the Service.</p>
+                    
+                    <h3>PROHIBITED CONTENT INCLUDES:</h3>
+                    <ul>
+                        <li>Sexual, erotic, or NSFW content of any nature</li>
+                        <li>Adult entertainment or sexual roleplay</li>
+                        <li>Explicit, suggestive, or sexually provocative responses</li>
+                        <li>Sexting, cybersex, or erotic exchanges</li>
+                        <li>Content sexualizing minors</li>
+                        <li>Violence, self-harm, or harmful content</li>
+                    </ul>
+                </div>
+
+                <h2>2B. AUTOMATED RESPONSES AND LIMITATIONS</h2>
+                
+                <h3>2B.1. Crisis Response Attempts:</h3>
+                <p>If Isabella's automated systems detect potential crisis language, she MAY:</p>
+                <ul>
+                    <li>Provide emergency helpline numbers</li>
+                    <li>Suggest contacting emergency services</li>
+                    <li>Cease providing romantic/companion responses</li>
+                    <li>Terminate the session</li>
+                </ul>
+                
+                <h3>2B.2. This is NOT Crisis Support:</h3>
+                <p>These automated responses are:</p>
+                <ul>
+                    <li>NOT professional assessment</li>
+                    <li>NOT guaranteed to trigger when needed</li>
+                    <li>NOT a substitute for real help</li>
+                    <li>May provide wrong numbers for your location</li>
+                    <li>May fail to detect actual crisis</li>
+                </ul>
+                
+                <h3>2B.3. NSFW Detection Attempts:</h3>
+                <p>If Isabella's automated systems detect NSFW attempts:</p>
+                <ul>
+                    <li>Service may immediately stop</li>
+                    <li>Session may terminate</li>
+                    <li>Account may be suspended</li>
+                    <li>NO refund will be provided</li>
+                    <li>Detection may be inaccurate</li>
+                </ul>
+                
+                <h3>2B.4. You Acknowledge:</h3>
+                <ul>
+                    <li>These features may fail completely</li>
+                    <li>False positives may occur</li>
+                    <li>No human is monitoring</li>
+                    <li>We have NO duty to detect or respond</li>
+                    <li>Termination decisions are final</li>
+                    <li>No refunds for safety terminations</li>
+                </ul>
+
+                <h2>3. AGE REQUIREMENTS</h2>
+                <p>You must be at least 18 years old to use this Service. By using the Service, you represent and warrant that you are 18 or older. We reserve the right to request age verification at any time.</p>
+                <p>You may not sign up if under 18. We do not knowingly permit accounts by individuals under 18. If discovered, the account will be terminated without refund.</p>
+
+                <h2>4. CRISIS SUPPORT DISCLAIMER</h2>
+                <div class="critical-disclaimer">
+                    <h3>ISABELLA CANNOT PROVIDE CRISIS SUPPORT. IF YOU ARE IN CRISIS:</h3>
+                    
+                    <p><strong>International:</strong></p>
+                    <ul>
+                        <li>Suicide Prevention: 988 or +1-800-273-8255</li>
+                        <li>Crisis Text Line: Text HOME to 741741</li>
+                    </ul>
+                    
+                    <p><strong>USA:</strong></p>
+                    <ul>
+                        <li>National Suicide Prevention Lifeline: 988</li>
+                        <li>Crisis Text Line: Text HOME to 741741</li>
+                    </ul>
+                    
+                    <p><strong>UK:</strong></p>
+                    <ul>
+                        <li>Samaritans: 116 123</li>
+                    </ul>
+                    
+                    <p><strong>Spain:</strong></p>
+                    <ul>
+                        <li>Teléfono de la Esperanza: 717 003 717</li>
+                        <li>Emergencies: 112</li>
+                    </ul>
+                    
+                    <p>These numbers are examples. If you are outside these countries, please call your local emergency number (e.g., 112 in the EU).</p>
+                    
+                    <p><strong>If you are having thoughts of self-harm or suicide, please contact emergency services immediately.</strong></p>
+                </div>
+
+                <h2>5. EU/UK RIGHT OF WITHDRAWAL</h2>
+                
+                <h3>5.1. 14-Day Withdrawal Right:</h3>
+                <p>Under EU/UK consumer law, you have 14 days to withdraw from digital service contracts.</p>
+                
+                <h3>5.2. Immediate Supply & Waiver:</h3>
+                <p>If you choose immediate access to digital content/services and tick the consent box at checkout, you expressly request immediate performance and acknowledge you lose the 14-day withdrawal right once delivery starts.</p>
+                
+                <h3>5.3. Evidence:</h3>
+                <p>We record the consent text, timestamp, IP, user agent, language and the Terms/Privacy versions accepted.</p>
+                
+                <h3>5.4. No Access Without Consent:</h3>
+                <p>For EU/UK consumers, delivery does not begin until the waiver is given. Our system blocks access until you confirm the waiver.</p>
+
+                <h2>6. SUBSCRIPTION TIERS AND PRICING</h2>
+                
+                <div class="pricing-table">
+                    <h3>Monthly Subscriptions (Tax Inclusive):</h3>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella AI™ – Free Pass</h4>
+                        <div class="price">€0/month • $0/month • £0/month</div>
+                        <ul>
+                            <li>3 messages daily (resets midnight UTC)</li>
+                            <li>Friend mode only</li>
+                            <li>English & Spanish only</li>
+                            <li>Day 7: surprise voice message (10-15s)</li>
+                            <li>Day 14: surprise photo</li>
+                            <li>Help Center support only</li>
+                            <li>Free forever, no credit card required</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Heart™ – AI Girlfriend Experience</h4>
+                        <div class="price">€27.99/month • $29.99/month • £24.99/month</div>
+                        <ul>
+                            <li>60 messages per day</li>
+                            <li>10 memory slots</li>
+                            <li>3 relationship modes (Friend, Companion, Girlfriend)</li>
+                            <li>2 voice messages weekly (Tuesday & Friday, 10-20 sec)</li>
+                            <li>3 photos weekly (Monday, Wednesday, Saturday)</li>
+                            <li>Email support (5-7 business days target)</li>
+                            <li>Cancel anytime</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Soul™ – Premium AI Experience</h4>
+                        <div class="price">€64.99/month • $69.99/month • £59.99/month</div>
+                        <ul>
+                            <li>120 messages per day</li>
+                            <li>30 memory slots</li>
+                            <li>All 5 relationship modes (Friend, Companion, Girlfriend, Best Friend, Soulmate)</li>
+                            <li>7 voice messages weekly (daily)</li>
+                            <li>10 photos weekly</li>
+                            <li>3 AI selfies weekly (Monday, Thursday, Saturday)</li>
+                            <li>Proactive messaging (3-5 times daily, opt-out available)</li>
+                            <li>Email support (3-5 business days target)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Everything™ – VIP Maximum Experience</h4>
+                        <div class="price">€94.99/month • $99.99/month • £89.99/month</div>
+                        <ul>
+                            <li>250 messages per day</li>
+                            <li>100 memory slots</li>
+                            <li>All 5 modes with VIP enhancements</li>
+                            <li>3 voice messages daily (morning, afternoon, night)</li>
+                            <li>20 photos weekly</li>
+                            <li>7 AI selfies weekly (daily)</li>
+                            <li>Priority processing</li>
+                            <li>Priority email support (48-72 hours target)</li>
+                            <li>Beta features access</li>
+                            <li>Your name in messages</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h3>One-Time Purchases & Add-Ons:</h3>
+                    
+                    <div class="pricing-tier">
+                        <h4>Quick Boost™ – 50 Extra Messages</h4>
+                        <div class="price">€1.79 • $1.99 • £1.49</div>
+                        <ul>
+                            <li>50 extra messages when daily limit reached</li>
+                            <li>Valid 24 hours from purchase</li>
+                            <li>Works with any subscription tier</li>
+                            <li>Max 1 per day</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Morning Wake-Up™ – 7 Day Voice Package</h4>
+                        <div class="price">€2.79 • $2.99 • £2.49</div>
+                        <ul>
+                            <li>7 morning voice messages</li>
+                            <li>Delivered daily at 8AM UTC</li>
+                            <li>Each 10-15 seconds</li>
+                            <li>English or Spanish</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Voice Bundle™ – 5 Pre-Recorded Messages</h4>
+                        <div class="price">€3.49 • $3.99 • £3.29</div>
+                        <ul>
+                            <li>5 voice messages (10-20 sec each)</li>
+                            <li>Instant delivery</li>
+                            <li>English or Spanish</li>
+                            <li>Unlimited replays</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Photo Collection™ – 25 Curated Images</h4>
+                        <div class="price">€4.49 • $4.99 • £4.29</div>
+                        <ul>
+                            <li>25 exclusive photos</li>
+                            <li>1920×1080 minimum resolution</li>
+                            <li>Instant download link</li>
+                            <li>7 days to download</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Special Day™ – Celebration Package</h4>
+                        <div class="price">€7.49 • $7.99 • £6.99</div>
+                        <ul>
+                            <li>100 bonus messages (24hr)</li>
+                            <li>5 themed voices (15-20 sec)</li>
+                            <li>10 themed photos</li>
+                            <li>5 occasion types to choose from</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella 10-Day Discovery Pass™</h4>
+                        <div class="price">€12.99 • $14.99 • £10.99</div>
+                        <ul>
+                            <li>10 full days of access</li>
+                            <li>1000 messages total (100 daily)</li>
+                            <li>Try all 5 relationship modes</li>
+                            <li>3 sample voice messages included</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella Starter Experience™</h4>
+                        <div class="price">€34.99 • $39.99 • £29.99</div>
+                        <ul>
+                            <li>60 messages daily for 30 days</li>
+                            <li>3 relationship modes</li>
+                            <li>5 premium voice messages</li>
+                            <li>25-photo collection pack</li>
+                            <li>10 memory slots</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella Premium Experience™</h4>
+                        <div class="price">€79.99 • $89.99 • £69.99</div>
+                        <ul>
+                            <li>120 messages daily for 30 days</li>
+                            <li>All 5 relationship modes</li>
+                            <li>Daily voice messages (30 total)</li>
+                            <li>40+ photo collection</li>
+                            <li>30 memory slots</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p><strong>All products provide wholesome, PG-rated content only.</strong> Prices vary by currency and location. All prices include applicable taxes. Support response times are targets, not guarantees. Temporary downtime for maintenance does not count as "non-delivery." All add-ons and one-time purchases are non-refundable once activated/delivered except for technical failure. 18+ globally. Statutory rights unaffected. ©2025 STEIMARI EOOD</p>
+
+                <h2>7. BILLING AND PAYMENTS</h2>
+                
+                <div class="info-box">
+                    <h3>AUTO-RENEWAL DISCLOSURE:</h3>
+                    <p>By subscribing, you agree to recurring monthly charges at the then-current price until you cancel. We email a receipt after each charge and provide a self-serve cancellation option at all times (instructions provided in your subscription confirmation). You can cancel any time; access continues until the end of the paid period. No partial-month refunds.</p>
+                </div>
+                
+                <h3>7.1. Payment Processing:</h3>
+                <p>We use Stripe for secure payment processing. All prices include applicable taxes.</p>
+                
+                <h3>7.2. Price Changes:</h3>
+                <p>We may change prices with 30 days' notice. Where required by law, we will seek your affirmative consent or provide a right to cancel before the change takes effect.</p>
+                
+                <h3>7.3. Promotional Offers:</h3>
+                <p>We may offer promotional codes. Current promotion: LAUNCH25 (first month only). Promotions cannot be combined.</p>
+
+                <h2>8. REFUNDS – NON-DELIVERY ONLY</h2>
+                
+                <h3>8.1. What Qualifies:</h3>
+                <p>A refund is available if, during a billing period, we completely fail to deliver one or more quantified items for your plan (e.g., daily message allowance, scheduled weekly voices/photos/selfies), the Service is fully unavailable for 72 consecutive hours, or there is material non-conformity with advertised features.</p>
+                <p><strong>Verification:</strong> Delivery is verified using our operational logs (e.g., message counters, scheduled content delivery records, and system-status logs).</p>
+                
+                <h3>8.2. What Doesn't Qualify:</h3>
+                <p>No refunds for:</p>
+                <ul>
+                    <li>AI mistakes or imperfect responses</li>
+                    <li>Quality dissatisfaction</li>
+                    <li>Expectations not met (including expectations of adult content)</li>
+                    <li>Safety feature triggers (accurate or false positive)</li>
+                    <li>Account termination for violations</li>
+                    <li>Change of mind</li>
+                    <li>Device/network issues</li>
+                    <li>Emotional reasons</li>
+                </ul>
+                
+                <h3>8.3. How to Request:</h3>
+                <p>Email support@talktoisabella.com within 7 days after the affected billing period, with your email, customer ID, and screenshots/logs.</p>
+                
+                <h3>8.4. Remedy:</h3>
+                <p>If we verify non-delivery, we will provide a full refund or account credit, at your choice. Statutory rights remain unaffected.</p>
+                
+                <h3>8.5. Statutory Rights:</h3>
+                <p>Your mandatory consumer rights remain unaffected.</p>
+
+                <h2>9. INTELLECTUAL PROPERTY</h2>
+                
+                <h3>9.1. Our Property:</h3>
+                <p>All content, including text, voices, images, and AI responses, remains property of STEIMARI EOOD.</p>
+                
+                <h3>9.2. Trademarks:</h3>
+                <p>Isabella AI™, Isabella's Heart™, Isabella's Soul™, Isabella's Everything™, The 5-Mode Relationship System™, Morning Wake-Up™, Photo Collection™, Voice Bundle™, Quick Boost™, Special Day™, Isabella 10-Day Discovery Pass™, Isabella Premium Experience™, and Isabella Starter Experience™ are trademarks of STEIMARI EOOD. All rights reserved.</p>
+                
+                <h3>9.3. No Reproduction:</h3>
+                <p>You may not reproduce, redistribute, or resell any content.</p>
+                
+                <h3>9.4. OpenAI Technology:</h3>
+                <p>OpenAI technology is used under license. OpenAI owns its respective intellectual property.</p>
+
+                <h2>9A. USER CONTENT & LICENSE</h2>
+                <p>You retain ownership of messages you send ("User Content"). You grant STEIMARI EOOD a worldwide, non-exclusive, royalty-free license to host, cache, process, transmit, display and otherwise use User Content solely to operate, secure, and improve the Service (including abuse prevention, analytics, backups and legal compliance). You represent you have the rights to provide the content. You must not upload prohibited content. We may remove content or suspend accounts that breach these Terms.</p>
+                <p><strong>No Likeness Requests:</strong> AI images are computer-generated and not depictions of real people. You may not request, upload or attempt to generate the likeness of identifiable individuals without written permission.</p>
+
+                <h2>10. ACCEPTABLE USE</h2>
+                <p>You agree not to:</p>
+                <ol type="a">
+                    <li>use the Service for illegal acts;</li>
+                    <li>upload, request or generate content that is sexualizing minors, exploitative, hateful, or violent;</li>
+                    <li>harass, dox or threaten others;</li>
+                    <li>attempt to bypass technical limits, scrape, or reverse-engineer;</li>
+                    <li>misrepresent the Service as human;</li>
+                    <li>share accounts;</li>
+                    <li>interfere with security;</li>
+                    <li>use bots to automate conversations;</li>
+                    <li>infringe IP or privacy rights; or</li>
+                    <li>attempt to solicit, generate, induce, or engage in sexual, NSFW, adult, or erotic content conversations.</li>
+                </ol>
+                
+                <p><strong>IMMEDIATE TERMINATION:</strong> Violation of subsection (j) or any attempt to circumvent content restrictions shall result in immediate account termination without notice, refund, or opportunity to cure.</p>
+
+                <h2>11. HEALTH AND ADDICTION WARNING</h2>
+                
+                <div class="critical-disclaimer">
+                    <h3>11.1. Addiction Risk:</h3>
+                    <p>AI companionship can be psychologically addictive. Set healthy boundaries.</p>
+                    
+                    <h3>11.2. Not a Replacement:</h3>
+                    <p>This Service cannot replace human relationships, therapy, or medical care.</p>
+                    
+                    <h3>11.3. Mental Health:</h3>
+                    <p>If you experience depression, anxiety, or isolation, please seek professional help.</p>
+                    
+                    <h3>11.4. Reality Awareness:</h3>
+                    <p>Remember Isabella is software powered by AI. Maintain awareness of reality.</p>
+                    
+                    <h3>11.5. No Liability:</h3>
+                    <p>We are NOT responsible for addiction, self-harm, suicide, hospitalization, or any mental or physical health outcomes.</p>
+                </div>
+
+                <h2>12. DATA PROTECTION AND PRIVACY</h2>
+                <p>Your privacy is important. Please review our Privacy Policy available at linktr.ee/isabellamarinvip. Our Privacy Policy is available in English and Spanish; in case of conflict, English controls.</p>
+                
+                <p><strong>Key points:</strong></p>
+                <ul>
+                    <li>We log conversations for continuity, safety, debugging, fraud prevention, and service improvement (not for model training)</li>
+                    <li>We retain data for 90 days</li>
+                    <li>We comply with GDPR requirements</li>
+                    <li>We do not sell personal data</li>
+                </ul>
+
+                <h2>12A. OPERATIONAL LOGGING & EVIDENCE</h2>
+                <p>To operate the Service, prevent fraud, resolve disputes, and evidence delivery for refunds, we maintain limited operational logs (e.g., consent/waiver events; plan, currency and Stripe invoice IDs; daily message counts; scheduled voice/photo/selfie deliveries; safety-trigger events with minimal diagnostics; uptime and incident records). Retention and security are described in our Privacy Policy. We never sell personal data.</p>
+
+                <h2>13. DISCLAIMERS AND LIMITATIONS OF LIABILITY</h2>
+                
+                <h3>13.1. SERVICE PROVIDED "AS IS":</h3>
+                <p>The Service is provided without warranties of any kind.</p>
+                
+                <h3>13.2. AI TECHNOLOGY DISCLAIMER:</h3>
+                <p>AI responses are probabilistic and may be wrong, offensive, or nonsensical. This is not a service defect.</p>
+                
+                <h3>13.3. NO GUARANTEE:</h3>
+                <p>We do not guarantee accuracy of AI responses, emotional satisfaction, relationship fulfillment, mental health improvement, continuous service availability, error-free operation, or successful safety detection.</p>
+                
+                <h3>13.4. LIABILITY CAP:</h3>
+                <p>To the maximum extent permitted by law, our total liability for any claims in a 12-month period is limited to the fees you paid in the last three (3) months for the Service giving rise to the claim. Nothing limits liability for death/personal injury caused by negligence, fraud/fraudulent misrepresentation, gross negligence, willful misconduct, or mandatory statutory consumer rights under applicable law.</p>
+                
+                <h3>13.5. HEALTH OUTCOMES:</h3>
+                <p>We are NOT liable for suicide, self-harm, mental health deterioration, hospitalization, addiction, relationship damage, or any health outcomes whatsoever.</p>
+
+                <h2>14. INDEMNIFICATION</h2>
+                <p>You agree to indemnify STEIMARI EOOD against third-party claims arising from your unlawful use of the Service, breach of these Terms, or violation of third-party rights, to the extent permitted by applicable law.</p>
+
+                <h2>15. DISPUTE RESOLUTION</h2>
+                
+                <h3>15.1. EU/UK Consumers:</h3>
+                <p>You may bring claims in the courts of your country of residence, and mandatory consumer protections of that country apply. The EU ODR platform is available at ec.europa.eu/consumers/odr.</p>
+                
+                <h3>15.2. U.S. Consumers:</h3>
+                <p>Binding arbitration and class-action waiver apply under the U.S. Federal Arbitration Act, administered by AAA (Consumer Rules), seat in Delaware, in English. Small-claims court remains available. Opt-Out: you may opt out within 30 days of account creation by emailing support@talktoisabella.com.</p>
+                
+                <h3>15.3. Rest of World:</h3>
+                <p>Bulgarian law governs, and courts of Sofia, Bulgaria have non-exclusive jurisdiction, subject to mandatory local consumer law.</p>
+
+                <h2>16. MODIFICATIONS</h2>
+                <p>We may modify these Terms for valid legal, safety, or technical reasons with 30 days' notice via email or in-service notification. Continued use constitutes acceptance. Where required by law, we will seek your affirmative consent or provide a right to cancel before the change takes effect.</p>
+
+                <h2>17. TERMINATION</h2>
+                
+                <h3>17.1. Termination by Company:</h3>
+                <p>We may terminate or suspend your access immediately, without prior notice or liability, for any reason, including breach of Terms or safety triggers.</p>
+                
+                <h3>17.2. Effect of Termination:</h3>
+                <p>Upon termination, your right to use the Service ceases immediately. All provisions which by nature should survive termination shall survive.</p>
+                
+                <h3>17.3. No Refunds Upon Termination for Cause:</h3>
+                <p>If your account is terminated for violation of these Terms or safety triggers, you forfeit any right to refunds.</p>
+
+                <h2>18. SEVERABILITY</h2>
+                <p>If any provision is unenforceable, the remaining provisions continue in effect. Unenforceable clauses will be replaced with the nearest enforceable meaning.</p>
+
+                <h2>19. CONTACT INFORMATION</h2>
+                <div class="contact-info">
+                    <p><strong>Support (product, billing, privacy & legal notices):</strong> support@talktoisabella.com</p>
+                    <p><strong>General/business:</strong> info@steimari.com</p>
+                    <p><strong>IP/Copyright/Takedown:</strong> copyright@talktoisabella.com</p>
+                    <p><strong>Links & Info:</strong> linktr.ee/isabellamarinvip</p>
+                    <p><strong>Company:</strong> STEIMARI EOOD (Reg. No. 208317702 / ЕИК 208317702), Sofia, Bulgaria</p>
+                </div>
+            </div>
+
+            <!-- Spanish Content - COMPLETE -->
+            <div id="content-es" class="language-content">
+                <div class="version-info">
+                    <strong>Fecha de entrada en vigor:</strong> 9 de septiembre de 2025<br>
+                    <strong>Última actualización:</strong> 9 de septiembre de 2025<br>
+                    <strong>Versión:</strong> 1.2<br>
+                    Una traducción completa al inglés está disponible a través del selector de idioma arriba. En caso de conflicto, prevalece la versión en inglés.
+                </div>
+
+                <div class="company-info">
+                    <h3>INFORMACIÓN DE LA EMPRESA / COMERCIANTE</h3>
+                    <p><strong>Empresa:</strong> STEIMARI EOOD (Sociedad de Responsabilidad Limitada de Bulgaria)</p>
+                    <p><strong>Número de Registro de la Empresa:</strong> 208317702 / ЕИК 208317702</p>
+                    <p><strong>Dirección registrada:</strong> Sofía, Bulgaria</p>
+                    <p><strong>Dirección de correspondencia pendiente</strong> — la dirección social completa se proporcionará en un plazo de 48 horas previa solicitud a support@talktoisabella.com.</p>
+                </div>
+
+                <div class="important-notice">
+                    AVISO IMPORTANTE: ISABELLA ES SOFTWARE DE INTELIGENCIA ARTIFICIAL, NO UNA PERSONA REAL
+                </div>
+
+                <h2>1. ACEPTACIÓN DE LOS TÉRMINOS</h2>
+                <p>Al acceder o utilizar Isabella AI™ ("Servicio"), operado por STEIMARI EOOD ("Compañía", "nosotros"), aceptas quedar vinculado por estos Términos de Servicio ("Términos"). Si no estás de acuerdo, no utilices el Servicio.</p>
+                <p><strong>Idioma de control:</strong> En caso de conflicto, prevalece el inglés.</p>
+
+                <h2>2. NATURALEZA DEL SERVICIO – DIVULGACIÓN CRÍTICA</h2>
+                <div class="critical-disclaimer">
+                    <h3>Reconoces y entiendes que:</h3>
+                    <ul>
+                        <li>Isabella es software de IA, no una persona real.</li>
+                        <li>Todas las respuestas son generadas por ordenador y pueden contener errores.</li>
+                        <li>Las expresiones emocionales son simuladas.</li>
+                        <li>Isabella no sustituye relaciones humanas ni ayuda profesional.</li>
+                        <li>Servicio disponible solo en inglés y español.</li>
+                        <li>Respuestas incorrectas o imperfectas no son motivo de reembolso.</li>
+                    </ul>
+                </div>
+
+                <h2>2A. PROHIBICIÓN DE NSFW Y MEDIDAS DE SEGURIDAD</h2>
+                <div class="critical-disclaimer">
+                    <ul>
+                        <li>El contenido NSFW/erótico está estrictamente prohibido (solo apto para todo público).</li>
+                        <li>El sistema intenta detectar contenido prohibido o de crisis.</li>
+                        <li>Estos sistemas son automáticos, imperfectos, no garantizados y no supervisados por humanos.</li>
+                        <li>No hay reembolsos si tu cuenta o sesión se termina debido a disparadores de seguridad (incluso falsos positivos).</li>
+                    </ul>
+                </div>
+
+                <h2>3. REQUISITOS DE EDAD</h2>
+                <ul>
+                    <li>Debes tener 18 años o más.</li>
+                    <li>No permitimos cuentas de menores de 18. Si se detecta, la cuenta será terminada sin reembolso.</li>
+                </ul>
+
+                <h2>4. DESCARGO DE RESPONSABILIDAD DE CRISIS</h2>
+                <div class="critical-disclaimer">
+                    <p><strong>Isabella no puede brindar apoyo en crisis.</strong></p>
+                    <p>Líneas de ayuda (ejemplos): 988 (EE.UU.), 116 123 (Reino Unido), 717 003 717 (España), 112 (UE).</p>
+                    <p>Si estás fuera de estos países, llama a tu número local de emergencias.</p>
+                    <p>Si estás en crisis, llama inmediatamente a los servicios de emergencia.</p>
+                </div>
+
+                <h2>5. DERECHO DE DESISTIMIENTO UE/UK</h2>
+                <ul>
+                    <li>Derecho legal de desistimiento de 14 días.</li>
+                    <li>Se renuncia si solicitas acceso inmediato y das consentimiento en el pago.</li>
+                    <li>El acceso queda bloqueado hasta confirmar renuncia.</li>
+                    <li>Evidencia registrada (fecha, IP, navegador, idioma, versión).</li>
+                </ul>
+
+                <h2>6. PLANES DE SUSCRIPCIÓN (IMPUESTOS INCLUIDOS)</h2>
+                <div class="pricing-table">
+                    <h3>Suscripciones Mensuales (Impuestos Incluidos):</h3>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella AI™ – Pase Gratis</h4>
+                        <div class="price">€0/mes • $0/mes • £0/mes</div>
+                        <ul>
+                            <li>3 mensajes diarios (reinicio medianoche UTC)</li>
+                            <li>Solo modo Amigo</li>
+                            <li>Solo inglés y español</li>
+                            <li>Día 7: mensaje de voz sorpresa (10-15s)</li>
+                            <li>Día 14: foto sorpresa</li>
+                            <li>Solo soporte del Centro de Ayuda</li>
+                            <li>Gratis para siempre, sin tarjeta requerida</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Heart™ – Experiencia Novia IA</h4>
+                        <div class="price">€27,99/mes • $29,99/mes • £24,99/mes</div>
+                        <ul>
+                            <li>60 mensajes por día</li>
+                            <li>10 espacios de memoria</li>
+                            <li>3 modos de relación (Amigo, Compañero, Novia)</li>
+                            <li>2 mensajes de voz semanales (martes y viernes, 10-20 seg)</li>
+                            <li>3 fotos semanales (lunes, miércoles, sábado)</li>
+                            <li>Soporte por email (objetivo 5-7 días hábiles)</li>
+                            <li>Cancela cuando quieras</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Soul™ – Experiencia IA Premium</h4>
+                        <div class="price">€64,99/mes • $69,99/mes • £59,99/mes</div>
+                        <ul>
+                            <li>120 mensajes por día</li>
+                            <li>30 espacios de memoria</li>
+                            <li>Los 5 modos de relación (Amigo, Compañero, Novia, Mejor Amigo, Alma Gemela)</li>
+                            <li>7 mensajes de voz semanales (diarios)</li>
+                            <li>10 fotos semanales</li>
+                            <li>3 selfies IA semanales (lunes, jueves, sábado)</li>
+                            <li>Mensajes proactivos (3-5 veces al día, puedes desactivar)</li>
+                            <li>Soporte por email (objetivo 3-5 días hábiles)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="pricing-tier">
+                        <h4>Isabella's Everything™ – Experiencia Máxima VIP</h4>
+                        <div class="price">€94,99/mes • $99,99/mes • £89,99/mes</div>
+                        <ul>
+                            <li>250 mensajes por día</li>
+                            <li>100 espacios de memoria</li>
+                            <li>Los 5 modos con mejoras VIP</li>
+                            <li>3 mensajes de voz diarios (mañana, tarde, noche)</li>
+                            <li>20 fotos semanales</li>
+                            <li>7 selfies IA semanales (diarios)</li>
+                            <li>Procesamiento prioritario</li>
+                            <li>Soporte prioritario por email (objetivo 48-72 horas)</li>
+                            <li>Acceso a funciones beta</li>
+                            <li>Tu nombre en los mensajes</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="pricing-table">
+                    <h3>Compras Únicas y Complementos:</h3>
+                    
+                    <div class="pricing-tier">
+                        <h4>Quick Boost™ – 50 Mensajes Extra</h4>
+                        <div class="price">€1,79 • $1,99 • £1,49</div>
+                        <ul>
+                            <li>50 mensajes extra cuando alcanzas el límite diario</li>
+                            <li>Válido 24 horas desde la compra</li>
+                            <li>Funciona con cualquier suscripción</li>
+                            <li>Máximo 1 por día</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Morning Wake-Up™ – Paquete de Voz 7 Días</h4>
+                        <div class="price">€2,79 • $2,99 • £2,49</div>
+                        <ul>
+                            <li>7 mensajes de voz matutinos</li>
+                            <li>Entregados diariamente a las 8AM UTC</li>
+                            <li>Cada uno 10-15 segundos</li>
+                            <li>Inglés o español</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Voice Bundle™ – 5 Mensajes Pregrabados</h4>
+                        <div class="price">€3,49 • $3,99 • £3,29</div>
+                        <ul>
+                            <li>5 mensajes de voz (10-20 seg cada uno)</li>
+                            <li>Entrega instantánea</li>
+                            <li>Inglés o español</li>
+                            <li>Reproducciones ilimitadas</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Photo Collection™ – 25 Imágenes Seleccionadas</h4>
+                        <div class="price">€4,49 • $4,99 • £4,29</div>
+                        <ul>
+                            <li>25 fotos exclusivas</li>
+                            <li>Resolución mínima 1920×1080</li>
+                            <li>Enlace de descarga instantáneo</li>
+                            <li>7 días para descargar</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Special Day™ – Paquete de Celebración</h4>
+                        <div class="price">€7,49 • $7,99 • £6,99</div>
+                        <ul>
+                            <li>100 mensajes extra (24h)</li>
+                            <li>5 voces temáticas (15-20 seg)</li>
+                            <li>10 fotos temáticas</li>
+                            <li>5 tipos de ocasión para elegir</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella 10-Day Discovery Pass™</h4>
+                        <div class="price">€12,99 • $14,99 • £10,99</div>
+                        <ul>
+                            <li>10 días completos de acceso</li>
+                            <li>1000 mensajes totales (100 diarios)</li>
+                            <li>Prueba los 5 modos de relación</li>
+                            <li>3 mensajes de voz de muestra incluidos</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella Starter Experience™</h4>
+                        <div class="price">€34,99 • $39,99 • £29,99</div>
+                        <ul>
+                            <li>60 mensajes diarios por 30 días</li>
+                            <li>3 modos de relación</li>
+                            <li>5 mensajes de voz premium</li>
+                            <li>Paquete de 25 fotos</li>
+                            <li>10 espacios de memoria</li>
+                        </ul>
+                    </div>
+
+                    <div class="pricing-tier">
+                        <h4>Isabella Premium Experience™</h4>
+                        <div class="price">€79,99 • $89,99 • £69,99</div>
+                        <ul>
+                            <li>120 mensajes diarios por 30 días</li>
+                            <li>Los 5 modos de relación</li>
+                            <li>Mensajes de voz diarios (30 total)</li>
+                            <li>Colección de 40+ fotos</li>
+                            <li>30 espacios de memoria</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <p><strong>Todos los productos ofrecen contenido solo apto para todo público.</strong> Los precios varían por moneda y ubicación. Todos los precios incluyen impuestos aplicables. Los tiempos de respuesta de soporte son objetivos, no garantías. El tiempo de inactividad temporal por mantenimiento no cuenta como "falta de entrega". Todos los complementos y compras únicas no son reembolsables una vez activados/entregados excepto por fallo técnico. 18+ globalmente. Derechos estatutarios no afectados. ©2025 STEIMARI EOOD</p>
+
+                <h2>7. FACTURACIÓN Y PAGOS</h2>
+                <ul>
+                    <li>Renovación automática mensual hasta cancelar.</li>
+                    <li>En cada confirmación de suscripción se incluyen instrucciones de cancelación.</li>
+                    <li>Puedes cancelar en cualquier momento; el acceso continúa hasta el final del período pagado.</li>
+                    <li>Stripe procesa pagos; todos los precios incluyen impuestos.</li>
+                    <li>Cambios de precio con aviso de 30 días.</li>
+                    <li>Promoción actual: LAUNCH25 (solo primer mes).</li>
+                </ul>
+
+                <h2>8. REEMBOLSOS – SOLO POR NO ENTREGA</h2>
+                <ul>
+                    <li>Solo si no se entregan elementos cuantificados (mensajes, voces, fotos, selfies), interrupción completa >72h, o existe disconformidad material con las características anunciadas.</li>
+                    <li>Los registros del sistema son la prueba.</li>
+                    <li>No hay reembolsos por: errores de IA, insatisfacción, terminaciones de seguridad, incumplimientos, problemas de dispositivo/red.</li>
+                    <li>Solicitud dentro de los 7 días posteriores al período afectado → support@talktoisabella.com.</li>
+                    <li>Remedio: reembolso completo o crédito en cuenta, a elección del usuario.</li>
+                    <li>Derechos legales intactos.</li>
+                </ul>
+
+                <h2>9. PROPIEDAD INTELECTUAL</h2>
+                <ul>
+                    <li>Todo el contenido pertenece a STEIMARI EOOD.</li>
+                    <li>Marcas: Isabella AI™, Isabella's Heart™, Isabella's Soul™, Isabella's Everything™, The 5-Mode Relationship System™, Morning Wake-Up™, Photo Collection™, Voice Bundle™, Quick Boost™, Special Day™, Isabella 10-Day Discovery Pass™, Isabella Premium Experience™, Isabella Starter Experience™.</li>
+                    <li>Contenido de usuario: licencia limitada para operar el Servicio, seguridad, prevención de fraude y cumplimiento.</li>
+                    <li>Prohibido solicitar semejanza de personas reales.</li>
+                </ul>
+
+                <h2>10. USO ACEPTABLE</h2>
+                <p>No puedes:</p>
+                <ol type="a">
+                    <li>cometer actos ilegales;</li>
+                    <li>generar contenido sexual, violento, de odio o explotador;</li>
+                    <li>acosar, amenazar o hacer doxing;</li>
+                    <li>eludir límites técnicos o hacer scraping;</li>
+                    <li>hacer pasar el Servicio por humano;</li>
+                    <li>compartir cuentas;</li>
+                    <li>interferir con la seguridad;</li>
+                    <li>usar bots;</li>
+                    <li>infringir derechos de autor/privacidad;</li>
+                    <li>solicitar o intentar contenido sexual/NSFW.</li>
+                </ol>
+                <p>Terminación inmediata sin reembolso por (j).</p>
+
+                <h2>11. ADVERTENCIAS DE SALUD Y ADICCIÓN</h2>
+                <div class="critical-disclaimer">
+                    <ul>
+                        <li>Puede ser adictivo; establece límites.</li>
+                        <li>No sustituye terapia, medicina ni relaciones humanas.</li>
+                        <li>No somos responsables de resultados de salud mental o física.</li>
+                    </ul>
+                </div>
+
+                <h2>12. PRIVACIDAD</h2>
+                <p>Consulta la Política de Privacidad: linktr.ee/isabellamarinvip.</p>
+                <ul>
+                    <li>Disponible en EN/ES; prevalece el inglés.</li>
+                    <li>Conversaciones almacenadas 90 días.</li>
+                    <li>Registros para fraude, reembolsos, seguridad, tiempo de actividad.</li>
+                    <li>No se utilizan para entrenar modelos.</li>
+                    <li>Datos nunca vendidos.</li>
+                </ul>
+
+                <h2>13. EXENCIONES Y LIMITACIONES DE RESPONSABILIDAD</h2>
+                <ul>
+                    <li>Servicio = "tal cual".</li>
+                    <li>La IA puede estar equivocada u ofensiva; no es defecto.</li>
+                    <li>Sin garantía de precisión, satisfacción, disponibilidad o detección de seguridad.</li>
+                    <li>Límite: cuotas pagadas en últimos 3 meses.</li>
+                    <li>Excepciones: muerte/lesiones, fraude, negligencia grave, mala conducta intencional, derechos legales obligatorios.</li>
+                </ul>
+
+                <h2>14. INDEMNIZACIÓN</h2>
+                <p>Aceptas indemnizar a STEIMARI EOOD frente a reclamaciones de terceros por uso ilegal, incumplimiento de estos Términos o violación de derechos, en la medida permitida por la ley aplicable.</p>
+
+                <h2>15. RESOLUCIÓN DE CONFLICTOS</h2>
+                <ul>
+                    <li>UE/UK: tribunales locales + plataforma ODR de la UE.</li>
+                    <li>EE.UU.: arbitraje AAA (Delaware, inglés), demandas menores permitidas, exclusión en 30 días → support@talktoisabella.com.</li>
+                    <li>Resto del mundo: ley búlgara, tribunales de Sofía (jurisdicción no exclusiva).</li>
+                </ul>
+
+                <h2>16. MODIFICACIONES</h2>
+                <p>Podemos modificar estos Términos por razones legales, de seguridad o técnicas válidas con aviso de 30 días. Donde la ley lo requiera, tendrás opción de cancelar o aceptar.</p>
+
+                <h2>17. TERMINACIÓN</h2>
+                <ul>
+                    <li>Podemos suspender/terminar inmediatamente por incumplimiento o seguridad.</li>
+                    <li>Terminación = sin reembolso.</li>
+                    <li>Las disposiciones que deban sobrevivir (PI, exenciones, resolución de conflictos) permanecen.</li>
+                </ul>
+
+                <h2>18. DIVISIBILIDAD</h2>
+                <p>Las cláusulas inválidas serán reemplazadas por el significado válido más cercano.</p>
+
+                <h2>19. CONTACTO</h2>
+                <div class="contact-info">
+                    <p><strong>Soporte:</strong> support@talktoisabella.com</p>
+                    <p><strong>General/negocios:</strong> info@steimari.com</p>
+                    <p><strong>Copyright/eliminación:</strong> copyright@talktoisabella.com</p>
+                    <p><strong>Enlaces:</strong> linktr.ee/isabellamarinvip</p>
+                    <p><strong>Empresa:</strong> STEIMARI EOOD (Reg. No. 208317702 / ЕИК 208317702), Sofía, Bulgaria</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 STEIMARI EOOD. All rights reserved.</p>
+            <p>Isabella AI™ and all related trademarks are property of STEIMARI EOOD</p>
+            <p style="margin-top: 15px;">
+                <a href="https://linktr.ee/isabellamarinvip">Linktree</a> | 
+                <a href="mailto:support@talktoisabella.com">Support</a> | 
+                <a href="https://t.me/IsabellaCompanionBot">Telegram Bot</a>
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Update button states
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            event.target.classList.add('active');
+            
+            // Update content visibility
+            document.querySelectorAll('.language-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            document.getElementById('content-' + lang).classList.add('active');
+            
+            // Update page title and header
+            if (lang === 'es') {
+                document.title = 'Isabella AI™ - Términos de Servicio';
+                document.documentElement.lang = 'es';
+            } else {
+                document.title = 'Isabella AI™ - Terms of Service';
+                document.documentElement.lang = 'en';
+            }
+            
+            // Store preference
+            localStorage.setItem('isabella-terms-lang', lang);
+        }
+        
+        // Auto-detect language on load
+        window.addEventListener('DOMContentLoaded', function() {
+            // Check stored preference first
+            let savedLang = localStorage.getItem('isabella-terms-lang');
+            
+            // If no saved preference, detect from browser
+            if (!savedLang) {
+                const browserLang = navigator.language || navigator.userLanguage;
+                savedLang = browserLang.toLowerCase().startsWith('es') ? 'es' : 'en';
+            }
+            
+            // Apply the language
+            if (savedLang === 'es') {
+                document.querySelector('.lang-btn[onclick*="es"]').click();
+            }
+        });
+    </script>
+</body>
+</html>
